@@ -1,0 +1,26 @@
+.perfil {
+    max-width: 140px;
+    min-width: auto;
+    border-radius: 50%;
+    
+}
+
+.icone {
+    margin-right: 5px;
+}
+
+main {
+    font-size: 12px;
+}
+
+#informacoes {
+    margin-top: 10px;
+}
+
+@media (min-width: 800px) {
+        main {
+            font-size: 16px;
+            display: flex;
+            flex-direction: row;
+    }
+}
