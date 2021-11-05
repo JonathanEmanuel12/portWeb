@@ -63,8 +63,30 @@ main {
 
 .projetoItem {
     margin-top: 10px;
-    border-bottom: 1px solid rgb(2, 117, 60);
     padding: 10px;
+}
+
+.linhaBottom {
+    border-bottom: 1px solid rgb(2, 117, 60);   
+}
+
+footer {
+    padding-top: 5px;
+    margin-top: 70px;
+    color: black;
+    font-size: 13px;
+    border-top: 4px solid rgba(2, 117, 60, 0.699);
+    min-height: 100px;
+}
+footer p {
+    max-width: 800px;
+}
+
+#tituloSobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 
@@ -80,5 +102,8 @@ main {
     }
     #secaoProjetos {
         font-size: 16px;
+    }
+    footer {
+        font-size: 14px;
     }
 }
